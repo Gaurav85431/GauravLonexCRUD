@@ -4,8 +4,8 @@ const http = require("http");
 const mongoose = require('mongoose');
 const cors = require('cors');
 const path = require('path');
-mongoose.connect('mongodb://127.0.0.1:27017/LonexGetAPIRender');
-mongoose.connect("mongodb+srv://Gaurav:eP2ILjAadWqdYhMda@loneximagecrud.s8tvog4.mongodb.net/?retryWrites=true&w=majority")
+//mongoose.connect('mongodb://127.0.0.1:27017/LonexGetAPIRender');
+//mongoose.connect("mongodb+srv://Gaurav:eP2ILjAadWqdYhMda@loneximagecrud.s8tvog4.mongodb.net/?retryWrites=true&w=majority")
 app.use(cors());
 
 //user routes
@@ -30,7 +30,7 @@ app.listen(3000, function () {
 
 
 const PORT = 8000;
-const DB = "mongodb+srv://Gaurav:eP2ILjAadWqdYhMda@loneximagecrud.s8tvog4.mongodb.net/?retryWrites=true&w=majority";
+const DB = "mongodb+srv://Gaurav:eP2ILjAadWqdYhMda@gauravlonexcrud.pl7ggq3.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.connect(DB)
   .then(() => {
