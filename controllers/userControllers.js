@@ -206,7 +206,7 @@ const get_image_by_id = async (req, res) => {
 // us image ka naam ko url me pas krke image ko get
 // krna hai.
 
-// get image by image name
+// get image by image name  
 const get_image = async (req, res) => {
 
   try {
